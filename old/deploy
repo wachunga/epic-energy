@@ -1,5 +1,0 @@
-git checkout gh-pages
-git merge master
-./deploy.sh
-
-no longer updating nodester; will just redirect to pe.com
