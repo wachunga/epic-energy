@@ -15,3 +15,7 @@ Building energy sim game developed during [Cleanweb Hackathon Vancouver](http://
 
 > [!TIP]  
 > If you want to make style changes, you'll have to edit `global.css`. The .less files are no longer used.
+
+## Deployment
+
+Just merge your changes to master — there's a GitHub action that will handle it from there.
