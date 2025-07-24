@@ -42,9 +42,7 @@
         viewModel = new ViewModel(game);
         ko.applyBindings(viewModel);
 
-        $("body").tooltip({
-          selector: ".tooltipped",
-        });
+        $("body").tooltip({ selector: ".tooltipped" });
       });
     </script>
   </head>
@@ -145,9 +143,10 @@
         </div>
 
         <footer>
-          Developed during
-          <a href="http://yvr.cleanweb.co">Cleanweb Hackathon Vancouver</a> by
-          folks from <a href="http://www.pulseenergy.com">Pulse Energy</a>
+          Developed during Cleanweb Hackathon Vancouver (<a
+            href="https://github.com/wachunga/epic-energy"
+            >Learn more</a
+          >)
         </footer>
       </div>
     </div>
@@ -272,6 +271,5 @@
         </p>
       </div>
     </script>
-    <!-- <script type="module" src="/src/main.js"></script> -->
   </body>
 </html>
