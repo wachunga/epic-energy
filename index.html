@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="/global.css" />
 
     <script src="https://cdn.jsdelivr.net/npm/underscore@1.4.4/underscore.min.js"></script>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/knockout@2.1.0/lib/knockout.min.js"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/knockout@3.5.1/build/output/knockout-latest.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/accounting@0.3.2/accounting.min.js"></script>
 
@@ -28,11 +27,11 @@
     <script src="src/data.js"></script>
     <script src="src/Game.js"></script>
     <script src="src/ViewModel.js"></script>
-    <!-- <link
+    <link
       href="http://fonts.googleapis.com/css?family=Open+Sans:400,700,600,800"
       rel="stylesheet"
       type="text/css"
-    /> -->
+    />
 
     <script>
       var game, viewModel;
@@ -47,18 +46,6 @@
           selector: ".tooltipped",
         });
       });
-
-      // TODO: does this even work?
-      !(function (d, s, id) {
-        var js,
-          fjs = d.getElementsByTagName(s)[0];
-        if (!d.getElementById(id)) {
-          js = d.createElement(s);
-          js.id = id;
-          js.src = "//platform.twitter.com/widgets.js";
-          fjs.parentNode.insertBefore(js, fjs);
-        }
-      })(document, "script", "twitter-wjs");
     </script>
   </head>
   <body data-bind="class: season">
@@ -234,16 +221,6 @@
     <script type="text/html" id="game-over">
       <div class="game-over">
         <h3>Game Over</h3>
-        <aside class="tweets">
-          <a
-            class="twitter-timeline"
-            width="250"
-            height="350"
-            href="https://twitter.com/search?q=%23epicenergy"
-            data-widget-id="253333870106247168"
-            >Tweets about "#epicenergy"</a
-          >
-        </aside>
         <div class="score-breakdown">
           <ul>
             <!-- ko if: finalStats().energyPercent === 0 -->
@@ -277,17 +254,6 @@
               <label>Final score</label>
               <div class="final-score">
                 <strong data-bind="countup: finalStats().score"></strong>
-                <a
-                  href="https://twitter.com/share"
-                  class="twitter-share-button"
-                  data-size="large"
-                  data-count="none"
-                  data-related="pulseenergy"
-                  data-bind="attr: { 'data-text': 'I just scored ' + finalStats().score + ' in Epic Energy III, created by @PulseEnergy team during @CleanwebYVR' }"
-                  data-url="http://epic.pulseenergy.com"
-                  data-hashtags="epicenergy,html5,cleanweb"
-                  data-lang="en"
-                ></a>
               </div>
             </li>
           </ul>
