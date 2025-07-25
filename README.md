@@ -1,6 +1,6 @@
 # Epic Energy III
 
-Building energy sim game developed during [Cleanweb Hackathon Vancouver](http://yvr.cleanweb.co/) by [@nigelzor](https://github.com/nigelzor), [@canadianveggie](https://github.com/canadianveggie), [@wachunga](https://github.com/wachunga) and Pete L.
+Building energy sim game developed during Cleanweb Hackathon Vancouver (2012) by [@nigelzor](https://github.com/nigelzor), [@canadianveggie](https://github.com/canadianveggie), [@wachunga](https://github.com/wachunga) and Pete Leathley.
 
 🕹️ [Play it now](https://wachunga.github.io/epic-energy)
 
